@@ -1,0 +1,2 @@
+./!(node_modules)/{,!(component|css|build|npm)/**/}/*.spec.js
+--recursive

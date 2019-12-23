@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="ko">
+    <body>
+        <ul style="cursor:pointer">
+            <li> 클릭하면 0 </li>
+            <li> 클릭하면 1 </li>
+            <li> 클릭하면 2 </li>
+        </ul>
+    </body>
+    <script>
+        const items = document.querySelectorAll('li');
+        for(var i = 0; i< items.length; i++) {
+            items[i].addEventListener('click', () => {
+                alert(i);
+            })
+        };
+    </script>
+</html>
